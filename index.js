@@ -7,7 +7,15 @@ document.addEventListener('DOMContentLoaded', () =>
 
   for (let i = 0; i < squares.length; i++) {
     squares[i].onclick = () => {
-      alert('You have clicked square ' + i)
+      //if the square below your current square is taken, you can go on top of it
+      if (squares[i + 7].classList.contains('taken')) {
+        if (currentPlayer == 1) {
+          squares[i].classList.add('taken')
+          squares[i].classList.add('player-one')
+          currentPlayer = 2
+          displayCurrentPlayer.innerHTML = currentPlayer
+        }
+      }
     }
   }
 
