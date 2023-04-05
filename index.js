@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () =>
           currentPlayer = 2
           displayCurrentPlayer.innerHTML = currentPlayer
         }
-      }
+      } else alert('cant go here')
     }
   }
 
