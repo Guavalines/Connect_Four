@@ -78,7 +78,10 @@ document.addEventListener('DOMContentLoaded', () =>
   ]
 
   function checkBoard() {
-
+    for (let y = 0; y < winningArrays.length; y++) {
+      const square1 = squares[winningArrays[y][0]]
+      const square2 = squares[winningArrays[y][1]]
+    }
   }
 
   for (let i = 0; i < squares.length; i++) {
