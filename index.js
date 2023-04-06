@@ -94,6 +94,16 @@ document.addEventListener('DOMContentLoaded', () =>
     {
       result.innerHTML = 'Player One Wins!'
     }
+    //check those squares to see if they all have the class of player-two
+    if (
+      square1.classList.contains('player-two') &&
+      square2.classList.contains('player-two') &&
+      square3.classList.contains('player-two') &&
+      square4.classList.contains('player-two')
+    )
+    {
+      result.innerHTML = 'Player Two Wins!'
+    }
   }
 
 
