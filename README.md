@@ -1,5 +1,4 @@
-# CONNECT FOUR
-Check it out here: [Connect Four](https://guavalines.github.io/Connect_Four/)
+# [CONNECT FOUR](https://guavalines.github.io/Connect_Four/) ☜ click to play
 
 ### Versions
 
