@@ -1,6 +1,16 @@
 # [CONNECT FOUR](https://guavalines.github.io/Connect_Four/) ☜ click to play
 
-### Versions
+# Description
+Connect Four is a two-player strategy game where players take turns dropping colored disks into a vertical board with the goal of connecting a line of four same-colored disks in a row, either vertically, horizontally, or diagonally. 
+
+# Features
+- for loops
+- addEventListener
+- document.querySelector
+- arrow functions
+
+
+# Tools
 
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
